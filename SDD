@@ -1,1 +1,211 @@
+# ESCAPE RUSH
 
+# Sound Design Document (SDD)
+
+**Plataforma:** Roblox Studio
+
+---
+
+## 1. Objetivo do Documento
+
+Este documento descreve o design sonoro do jogo **Escape Rush**, detalhando o papel da música e dos efeitos sonoros (SFX) na experiência do jogador.
+
+O SDD serve como referência para implementação e expansão do sistema de áudio no Roblox Studio.
+
+---
+
+## 2. Visão Geral da Proposta Sonora
+
+O jogo possui uma proposta sonora dinâmica e orientada à tensão, coerente com sua natureza de corrida intensa (**Obby Runner**).
+
+O áudio foi projetado para cumprir três funções principais:
+
+| Elemento | Objetivo |
+|-----------|-----------|
+| 🚨 Urgência | Reforçar a sensação de velocidade e pressão constante |
+| 🎯 Feedback | Resposta imediata às ações do jogador |
+| 👁️ Clareza | Indicar momentos críticos: perigo, erro e progresso |
+
+Diferente de jogos mais calmos, aqui o som é essencial para transmitir pressão constante, acompanhando a dinâmica da **Zona de Perigo** em tempo real.
+
+---
+
+## 3. Objetivos do Áudio
+
+- Sustentar uma ambientação de tensão crescente ao longo da corrida.
+- Reforçar ações positivas, como a coleta de energéticos e passagem por checkpoints.
+- Alertar o jogador sobre a aproximação da Zona de Perigo.
+- Comunicar falhas (morte) de forma impactante e clara.
+- Manter clareza sonora mesmo com gameplay rápida e cheia de elementos simultâneos.
+
+---
+
+## 4. Biblioteca de Áudio
+
+### 4.1 Música
+
+Trilha principal que acompanha o jogador durante a corrida.
+
+| Arquivo / Link | Tipo | Função |
+|---------------|------|---------|
+| ▶ Ouvir no YouTube | Música | Ambientação principal da partida |
+
+### 4.2 Efeitos Sonoros (SFX)
+
+| Arquivo / Link | Tipo | Função |
+|---------------|------|---------|
+| ▶ Ouvir no YouTube | SFX | Checkpoint |
+| ▶ Ouvir no YouTube | SFX | Energético |
+| ▶ Ouvir no YouTube | SFX | Asa Delta |
+| ▶ Ouvir no YouTube | SFX | Yoshi |
+| `sounds/death.wav` | SFX | Morte |
+
+---
+
+## 5. Papel de Cada Elemento Sonoro
+
+### 🎵 Música de Fundo
+
+A trilha principal acompanha o jogador durante toda a corrida, aumentando gradualmente a intensidade conforme o progresso.
+
+**Objetivos**
+
+- Manter o ritmo da gameplay e o engajamento do jogador.
+- Evitar sensação de vazio ou monotonia.
+- Aumentar a tensão conforme o jogador avança.
+
+---
+
+### ⚠️ Música de Alerta
+
+Ativada quando a Zona de Perigo está próxima.
+
+**Objetivos**
+
+- Gerar urgência imediata.
+- Indicar risco sem depender apenas de elementos visuais.
+
+---
+
+### ⚡ Som de Energético
+
+Disparado ao coletar um item de buff.
+
+**Objetivos**
+
+- Fornecer feedback positivo imediato.
+- Reforçar a sensação de ganho de vantagem.
+
+---
+
+### 🔴 Som da Zona de Perigo
+
+Som contínuo ou pulsante quando a zona está próxima.
+
+**Objetivos**
+
+- Criar pressão psicológica constante.
+- Avisar o jogador sem necessidade de olhar para trás.
+
+---
+
+### 💀 Som de Morte
+
+Reproduzido ao ser alcançado pela Zona de Perigo ou falhar em um obstáculo.
+
+**Objetivos**
+
+- Marcar claramente o fim da tentativa.
+- Gerar impacto imediato.
+
+---
+
+### ✅ Som de Checkpoint
+
+Ativado ao alcançar um marco de progresso.
+
+**Objetivos**
+
+- Indicar progresso e conquista parcial.
+- Gerar sensação de alívio momentâneo.
+
+---
+
+## 6. Fluxo Sonoro da Experiência
+
+```text
+1. Jogador entra no lobby
+   ↓
+2. Música principal inicia
+   ↓
+3. Corrida com feedbacks sonoros
+   ↓
+4. Zona de Perigo se aproxima
+   ↓
+5. Sons de alerta aumentam
+   ↓
+6. Jogador morre
+   ↓
+7. Som de morte
+   ↓
+8. Retorno ao lobby
+```
+
+---
+
+## 7. Diretrizes de Mixagem
+
+- SFX devem possuir prioridade sobre a música.
+- O som de perigo deve aumentar gradualmente.
+- A música não deve competir com alertas críticos.
+- Evitar excesso de sons simultâneos.
+- Sons de ação devem ser curtos e responsivos.
+- Minimizar delays perceptíveis.
+
+---
+
+## 8. Coerência Estética Sonora
+
+| Aspecto | Diretriz |
+|----------|-----------|
+| Ritmo | Sons rápidos e responsivos |
+| Estilo | Trilha eletrônica e dinâmica |
+| Foco | Tensão e urgência |
+| Eficiência | Baixa complexidade e alto impacto |
+
+---
+
+## 9. Limitações Atuais
+
+Ainda não implementado:
+
+- Variação musical por mapa.
+- Sons de interface.
+- Controle individual de volume.
+- Ambientação sonora multicamadas.
+- Transições avançadas de áudio.
+
+---
+
+## 10. Melhorias Futuras
+
+- Adicionar sons de interface.
+- Criar trilha exclusiva para o lobby.
+- Implementar controle de volume para Música e SFX.
+- Adaptar a trilha à velocidade do jogador.
+- Criar sons específicos para obstáculos distintos.
+- Melhorar transições sonoras entre estados do jogo.
+
+---
+
+## 11. Resumo
+
+O design sonoro de **Escape Rush** é baseado em três pilares:
+
+- 🎵 Ritmo
+- 🚨 Urgência
+- 🎯 Feedback
+
+A música sustenta a tensão da corrida enquanto os efeitos sonoros orientam o jogador e reforçam ações importantes.
+
+Mesmo com um escopo inicial simples, o sistema sonoro possui potencial para expansão e contribui diretamente para a intensidade e fluidez da experiência de jogo.
