@@ -38,16 +38,17 @@ Criando uma experiência:
 
 ### 2.1 Fluxo Principal
 
-1. Lobby → Preparação e entrada na partida  
-2. Corrida → Superar obstáculos  
-3. Fim → Completar ou morrer  
+1. Lobby → Preparação e entrada na partida
+2. Obstaculo → Partes tocaveis que morrem  
+3. Corrida → Superar obstáculos  
+4. Fim → Completar ou morrer  
 
 ---
 
 ### 2.2 Lobby
 
 - Entrada automática ao iniciar ou morrer  
-- Botão inicia a partida  
+- Partida com tempo 
 - Teleporte para o início do percurso  
 
 Pode exibir:
@@ -74,17 +75,17 @@ Pode exibir:
 **Exemplos de obstáculos:**
 - Plataformas móveis  
 - Armadilhas  
-- Buracos  
+- Buracos
+- NPC 
 
 ---
 
 ## 2.4 Zona de Perigo
 
-Barreira que persegue o jogador.
+Barreira que persegue o jogador ou NPC.
 
 **Características:**
 - Movimento constante ou crescente  
-- Visual distinto (fogo, energia, etc.)
 
 | Condição | Resultado |
 |---------|----------|
@@ -104,6 +105,8 @@ Barreira que persegue o jogador.
 | Energético | Aumenta velocidade | 5–10s |
 | Escudo | Sobrevive 1 vez | Uso único |
 | Super Salto | Aumenta pulo | 3–5s |
+| Voo | Voa temporariamente  | 2-5s |
+
 
 ---
 
@@ -160,8 +163,7 @@ Barreira que persegue o jogador.
 ---
 
 ### 4.3 Feedback
-
-- Tela vermelha ao perigo  
+ 
 - Sons de alerta  
 - Efeitos de velocidade  
 - Celebração final  
