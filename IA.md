@@ -1,6 +1,6 @@
 # Sistema de IA
 
-A IA do **Escape Rush** será responsável por controlar NPCs amigáveis e inimigos, tornando as partidas mais dinâmicas e desafiadoras.
+A IA do **CORRIDA CONTRA O TEMPO ** será responsável por controlar NPCs amigáveis e inimigos, tornando as partidas mais dinâmicas e desafiadoras.
 
 ## NPCs Amigáveis
 
