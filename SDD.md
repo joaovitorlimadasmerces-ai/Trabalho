@@ -199,7 +199,7 @@ Na versão atual do projeto, os seguintes recursos ainda não estão implementad
 
 # 11. Resumo
 
-O design sonoro de **Escape Rush** é focado em ritmo, urgência e feedback imediato.
+O design sonoro de **CORRIDA CONTRA O TEMPO ** é focado em ritmo, urgência e feedback imediato.
 
 A música sustenta a tensão ao longo da corrida, enquanto os efeitos sonoros guiam o jogador e reforçam cada ação importante.
 
