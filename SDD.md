@@ -57,11 +57,11 @@ Sons de feedback acionados por eventos específicos durante o gameplay.
 
 | Arquivo / Link | Tipo | Função |
 |---------------|------|---------|
-| ▶ Ouvir no YouTube | SFX | Feedback de checkpoint |
-| ▶ Ouvir no YouTube | SFX | Feedback de energético |
-| ▶ Ouvir no YouTube | SFX | Feedback de asa delta |
-| ▶ Ouvir no YouTube | SFX | Feedback de Yoshi |
-| sounds/death.wav | SFX | Feedback de morte |
+| sounds/checkpoint.wav[checkpoint.mp3](https://github.com/user-attachments/files/29334613/checkpoint.mp3)
+ | SFX | Feedback de checkpoint |
+| sounds/lob.wav | SFX | Música do lob inicial |
+| sounds/death.wav [game over.mp3](https://github.com/user-attachments/files/29334715/game.over.mp3)
+| SFX | Feedback de morte |
 
 ---
 
