@@ -17,33 +17,16 @@ Os NPCs amigáveis ajudam o jogador durante a corrida:
 - Salva o jogador uma única vez em situações específicas.
 
 ---
+ obstáculos e aumentam a dificuldade da partida.
 
-## NPCs Inimigos
-
-Os NPCs inimigos criam obstáculos e aumentam a dificuldade da partida.
-
-### Corredor Rival
-- Compete diretamente com o jogador até o final da fase.
 
 ### Empurrador
 - Tenta derrubar o jogador dos obstáculos.
-
-### Guardião
-- Bloqueia passagens estratégicas.
-- Atrasa o avanço do jogador.
 
 ---
 
 ## Comportamento da IA
 
-Os NPCs utilizarão um sistema de máquina de estados finitos (**FSM - Finite State Machine**), alternando entre os seguintes estados:
-
-| Estado | Descrição |
-|----------|----------|
-| Idle | NPC permanece parado. |
-| Patrol | NPC patrulha uma área definida. |
-| Follow | NPC segue o jogador. |
-| Interact | NPC realiza uma interação específica. |
 
 ### Detecção do Jogador
 
@@ -76,11 +59,6 @@ A identificação do jogador será realizada por:
 
 Na primeira versão do sistema serão implementados apenas:
 
-### NPC Amigável
-- Entregador de Buffs
-
-### NPC Inimigo
-- Corredor Rival
 
 ### Funcionalidades Básicas
 - Sistema de movimentação.
@@ -90,12 +68,5 @@ Na primeira versão do sistema serão implementados apenas:
 ---
 
 ## Atualizações Futuras
-
-Os seguintes NPCs serão adicionados em versões posteriores:
-
-- Guia
-- Resgatador
-- Empurrador
-- Guardião
 
 Além disso, novas mecânicas de IA e interações avançadas poderão ser incorporadas para aumentar a variedade e o desafio das partidas.
