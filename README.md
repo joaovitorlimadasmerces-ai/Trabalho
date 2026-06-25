@@ -6,7 +6,7 @@
 
 ## 1. Visão Geral do Projeto
 
-**Escape Rush** é um jogo no estilo **Runner / Obstacle Course (Obby)** desenvolvido no Roblox Studio.
+**CORRIDA CONTRA O TEMPO ** é um jogo no estilo **Runner / Obstacle Course (Obby)** desenvolvido no Roblox Studio.
 
 O objetivo central é avançar por um percurso linear repleto de obstáculos, alcançando o final da fase antes de ser eliminado por uma zona de perigo que persegue o jogador constantemente.
 
